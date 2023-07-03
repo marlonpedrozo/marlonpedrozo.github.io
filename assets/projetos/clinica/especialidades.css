@@ -1,0 +1,307 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-family: 'Space Mono', monospace;
+
+   margin: 0px;
+ 
+   }
+  
+  h2{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+  }
+  
+   body{
+      font-family: 'Source Sans Pro , sans-serif';
+   }
+  
+   .topo{
+   display: flex;
+   justify-content: space-around;
+   background-color: aqua;
+   width: 100%;
+   margin: auto;
+   color: white;
+   
+   
+   } 
+   .links-topo{
+    
+     padding-top: 40px;
+   }
+   .links-topo a{
+     text-decoration: none;
+     margin:20px;
+     font-size: 20px;
+     color: white;
+     font-weight: bold;
+   }
+ 
+
+
+
+   .navegacao-topo{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color:black;
+    padding: 30px;
+   
+   }
+   .navegacao-topo-link{
+    color: black;
+    border-bottom: 2px solid rgb(33, 237, 223);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+   }
+   .navegacao-topo-link:hover{
+        color: #0785318c;
+   }
+
+    .navegacao-topo-container h2{
+    color:black;
+    text-align: center;
+    margin: 40px;
+   }
+
+
+  .conteudo6-main{
+    margin: 80px;
+   }
+
+   .conteudo6 p{
+    padding: 60px;
+
+   }
+
+.conteudo6 h2, p{
+    margin:20px auto;
+    text-align: center;
+    width: 600px;
+}
+.conteudo6-imagem{
+    width: 1024px;
+    display: flex;
+    margin: auto;
+}
+.conteudo6 img{
+    height: 250px;
+    width: 350px;
+}
+.conteudo6-imagem table{
+    margin: auto;
+    width: 100vw;
+    height: 251px;
+    max-width: 1024px;
+
+    
+}
+
+th, td {
+  padding-left: 10px;
+}
+
+
+tr:nth-of-type(1) {
+background-color: rgba(196, 196, 196, 0.73);
+color: white;
+}
+
+tr:nth-of-type(3){
+  background-color: rgba(196, 196, 196, 0.73);
+  color:white
+  }
+.topo-tabela:first-of-type{
+  background-color: aqua;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+   .rodape{
+  text-align: center;
+  background-color: aqua;
+  height: 400px;
+  color: white;
+  margin: auto;
+  font-weight: bold;
+}
+
+
+
+
+
+
+@media  screen 
+and (min-width:320px) 
+and (max-width:425px) {
+
+  header, footer{
+     width: 425px;
+  }
+  .topo{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin: 0%;
+    padding: 0%;
+    height: 200px;
+    max-width: 425px;
+   text-align: center;
+  }
+
+
+  .links-topo a {
+    font-size: 15px;
+    text-align: center;
+  }
+  .links-topo{
+    height: 20px;
+    border-top: 2px solid gray ;
+  }
+
+.navegacao-topo{
+  max-width: 425px;
+}
+
+.navegacao-topo-link{
+  
+ 
+  font-size: 12px;
+  margin: 3px;
+  
+   
+  
+}
+
+
+
+  .topo-logo{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+
+  .conteudo4{
+    display: flex;
+    flex-direction: column;
+    max-width: 414px;
+
+    
+  }
+
+  .conteudo4-imagens{
+    
+     width: 315px;
+     margin: 20px auto;
+
+  }
+  .conteudo4 img{
+    height: 150px;
+    width: 312px;
+   
+  }
+
+  .conteudo6{
+    font-size: 12px;
+    width: 425px;
+  }
+
+  .conteudo6-main{
+    display: flex;
+    max-width: 425px;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: 0%;
+  }
+
+  .conteudo6-main p{
+    margin-top: 10px;
+  }
+ 
+  .conteudo6 img{
+   display: none;
+  }
+
+  .rodape{
+    text-align: center;
+    background-color: aqua;
+    height: 600px;
+    max-width: 425px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+   
+    
+    
+  }
+
+  .rodape p{
+    text-align: center;
+    width: 200px;
+  }
+
+}
+
+@media  screen and (min-width:768px){
+ 
+  
+  .conteudo6-imagem{
+    height: 200px;
+     width: 100%;
+    
+  }
+  .conteudo-imagem h1{
+    text-align: left;
+    width: 350px;
+    font-size: 20px;
+     color: #fff;
+    display: flex;
+    align-items: center;
+    top: 67%;
+
+
+}
+  
+}
+@media  screen and (max-width:768px) {
+  .conteudo-imagem{
+    height: 300px;
+  }
+
+  .container2 img{
+    display: none;
+  }
+
+   .conteudo4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 768px;
+    margin: auto;
+ 
+   }
+  .conteudo4-imagens{
+    width: 330px;
+    margin: 10px;
+   
+  }
+  .conteudo4 img{
+    height: 250px;
+    width: 330px;
+  
+  }
+}
+
+@media  screen and (min-width:1024px) {
+  .conteudo-imagem{
+    height: 400px; 
+  }
+}
+@media  screen and (max-width:1024px) {
+  .conteudo-imagem{
+    height: 500px;
+  }
+}

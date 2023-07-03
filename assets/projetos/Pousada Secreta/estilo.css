@@ -1,0 +1,231 @@
+ *{
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0%;
+     
+ }
+ 
+.body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+ 
+
+.container-topo{
+     display: flex;
+     justify-content: space-around; 
+     border: 1px solid rgba(220, 220, 220, 0.416);
+     align-items: center;
+     position: fixed;
+     width: 100vw;
+     background-color: rgb(245, 248, 247);
+     top:0%;
+     padding-bottom: 10px;
+    height: 40px;
+     
+}
+
+.menu{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+
+.logotipo{
+    color: rgb(14, 13, 14);
+    text-decoration: none;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+
+}
+.logotipo span{
+    color: rgb(0, 174, 255);
+}
+
+
+.link-topo{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.container-topo-titulo{
+    padding-top: 20px;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+.container-topo-titulo{
+    width: 100vw;
+    height: 1000px;
+    background-image: url(assets/img-fundo.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-topo-titulo-centro{
+border: 2px solid rgb(255, 255, 255);
+width: 400px;
+height: 200px;
+padding-top: 32px;
+text-align: center;
+position: relative;
+top: 350px;
+left: 500px;
+background-color: rgb(14, 136, 95);
+ 
+opacity: 0,5%;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color:white;
+font-size: 20px;
+}
+
+ .conteudo{
+    background-color:white
+ }
+
+.quartos{
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-conteudos-quartos{
+    display: flex;
+    overflow-x: scroll;
+    margin: 10px;
+   
+}
+
+.container-conteudos-quartos img{
+   width: 350px;
+   
+   
+}
+
+.fotos-conteudo:hover{
+    box-shadow: 1px 1px 1px 2px rgb(0, 40, 0);
+    opacity:1
+  
+}
+
+.fotos-conteudo{
+    display: flex;
+    flex-direction: column ;
+    padding : 6px;
+    margin : 10px;
+    opacity:0.6;
+    
+     
+}
+.fotos-conteudo  a{
+    color:black;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 26px;
+    font-size: 16px;
+    height: 46px;
+    border-bottom: 3px solid rgb(1, 83, 1);
+    
+    
+}
+
+.mapa-localizacao{
+    width: 100%;
+
+}
+
+
+
+
+.imagem-pousada-conteudo{
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+
+
+}
+
+.imagem-pousada-texto{
+  
+ border: solid  2px rgb(1, 83, 1);
+ margin: 20px;
+
+
+}
+ 
+
+.imagem-pousada-texto p{
+    width: 500px;
+    
+}
+
+.imagem-pousada-texto img{
+   width: 200px;
+   height: 200px;
+   padding: 10px;
+}
+
+
+
+
+.rodape{
+    background-color:rgb(2, 105, 71) ;
+    width: 100vw;
+    margin-bottom: 0%;
+    
+}
+
+.icone-rodape h3{
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+
+.icone-rodape img{
+    display: flex;
+    margin: 5px;
+    color: white;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 35px;
+    align-items: flex-start;
+
+}
+.icone-rodape p{
+    display: flex;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+
+.conteudo-rodape{
+   display: flex;
+   flex-direction: wrap;
+   justify-content: space-around;
+   align-items: center;
+   text-decoration: none;
+   color: white;
+   border-bottom: 2px solid rgb(0, 47, 0);
+   margin: 20px;
+   height: 100px;
+    
+}
+.conteudo-rodape a{
+   text-decoration: none;
+   color: white;
+
+}
+ 

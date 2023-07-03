@@ -1,0 +1,304 @@
+ *{
+  font-family: 'Space Mono', monospace;
+ 
+   margin: auto;
+  
+ }
+
+
+
+h2{
+  font-size: 20px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+ body{
+    font-family: 'Source Sans Pro , sans-serif';
+ }
+
+ .contato p{
+  text-align: center;
+  margin: 50px;
+ }
+
+ p{
+  margin: 50px;
+ }
+ 
+
+ .topo{
+   display: flex;
+   justify-content: space-around;
+   background-color: aqua;
+   width: 100%;
+   margin: auto;
+   color: white;
+   
+ } 
+ .links-topo{
+   font-weight: bold;
+ }
+
+  
+ .links-topo a{
+   text-decoration: none;
+   margin:20px;
+   font-size: 20px;
+   color: white;
+   font-weight: bold;
+ }
+
+ .links-topo a:hover{
+  color: #14a8d18c;
+}
+
+ .conteudo h2{
+   max-width: 1024px;
+ }
+
+ .conteudo-imagem{
+  width: 100%;
+  min-height: 600px;}
+
+ 
+ .conteudo-imagem{
+   background-repeat: no-repeat;
+   background-image: url('assets/recepcao.png');
+   background-size: cover;
+
+ }
+
+
+ .conteudo-imagem h1{
+  text-align: left;
+  position: absolute;
+  color: rgb(255, 255, 255);
+   font-size: 35px;
+   top: 76%;
+   left: 4%;
+   width: 50%;
+   font-family: Arial, sans-serif;
+   font-style: oblique;
+   
+ }
+  
+
+ 
+.container-conteudo{
+ 
+  max-width: 1024px;
+  margin: auto;
+
+}
+
+.container-conteudo h2{
+  color: black;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif
+}
+.container{
+  padding: 50px;
+  text-align: center;
+  margin: 20px;
+  color:gray;
+}
+.container h2{
+  margin: 20px;
+  font-size: 16x;
+}
+.container2{
+  
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.container2 img{
+  padding-left: 25%;
+}
+.container3-lista li{
+  text-align:left;
+  font-size: 18px;
+  padding: 2px;
+ 
+  
+}
+.container3-lista h2{
+  text-align: left;
+  padding: 20px;
+  width: 500px;
+}
+
+.conteudo4{
+  display: flex;
+  flex-direction: row;
+max-width: 1024px;
+  margin: auto;
+  justify-content: space-around;
+ 
+}
+.conteudo4 img{
+  height: 250px;
+  width: 350px;
+}
+.conteudo4-imagens{
+  box-shadow: 2px 2px 2px 2px rgb(174, 174, 174);
+  margin: 20px;
+  border-radius: 5px ;
+}
+.conteudo-name{
+text-align: center;
+padding: 10px;
+color: rgb(159, 159, 159);
+}
+
+.botao{
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: aqua;
+  width: 10%;
+  border-radius: 100px;
+}
+.botao a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+.botao a:hover{
+  color: #14a8d18c;
+}
+
+.conteudo5{
+  margin: auto;
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+ 
+.conteudo5 iframe{
+  width: 900px;
+  height: 400px;
+  padding-top: 30px;
+  box-shadow: 2px  rgb(174, 174, 174);
+}
+
+.rodape{
+  text-align: center;
+  background-color: aqua;
+  height: 300px;
+  color: white;
+}
+
+
+
+
+
+@media  screen and (max-width:425px) {
+  .topo{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin: 0%;
+    padding: 0%;
+    height: 300px;
+   text-align: center;
+   
+  }
+  .links-topo a {
+    font-size: 12px;
+  }
+  .links-topo{
+     height: 20px;
+    margin-top: 2px;
+    border-top: 2px solid gray;
+    font-size: 2px;
+
+  }
+
+  .topo-logo{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+
+  .conteudo4{
+    display: flex;
+    flex-direction: column;
+    max-width: 414px;
+
+    
+  }
+
+  .conteudo4-imagens{
+    
+     width: 315px;
+     margin: 20px auto;
+
+  }
+  .conteudo4 img{
+    height: 150px;
+    width: 312px;
+  
+    
+  }
+}
+
+@media  screen and (max-width:425px) {
+  
+  .conteudo-imagem{
+    height: 200px;
+  }
+  .conteudo-imagem h1{
+    text-align: left;
+    width: 350px;
+    font-size: 20px;
+     color: #fff;
+    display: flex;
+    align-items: center;
+    top: 67%;
+
+
+}
+  
+}
+@media  screen and (max-width:768px) {
+  .conteudo-imagem{
+    height: 300px;
+  }
+
+  .container2 img{
+    display: none;
+  }
+
+   .conteudo4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 768px;
+    margin: auto;
+ 
+   }
+  .conteudo4-imagens{
+    width: 330px;
+    margin: 10px;
+   
+  }
+  .conteudo4 img{
+    height: 250px;
+    width: 330px;
+  
+  }
+}
+
+@media  screen and (min-width:1024px) {
+  .conteudo-imagem{
+    height: 400px; 
+  }
+}
+@media  screen and (max-width:1024px) {
+  .conteudo-imagem{
+    height: 500px;
+  }
+}
